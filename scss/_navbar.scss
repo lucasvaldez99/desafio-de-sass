@@ -1,0 +1,28 @@
+nav {
+    border: gold 4px solid;
+    background-color: rgb(171, 123, 60);
+
+    ul{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        li{
+            display: inline;
+            background-color: aliceblue;
+            border: solid 2px grey;
+            height: 3rem;
+            text-align: center;
+
+            
+            a{
+                text-decoration: none;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 2rem;
+                text-decoration-color: brown;
+
+
+            }
+        }
+    }
+}

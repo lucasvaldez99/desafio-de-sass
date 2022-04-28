@@ -1,0 +1,10 @@
+div{ background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    @media screen and (max-width: 468px) {
+        background-color: blueviolet;
+    }
+}
